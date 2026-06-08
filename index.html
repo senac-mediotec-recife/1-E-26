@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MEDIOTEC SENAC - 1º ANO E - GITHUB E HTML</title>
 
+<!-- 
+  [DICA DE CUSTOMIZAÇÃO]:
+  As variáveis abaixo controlam as cores de todo o painel.
+  Quer deixar o projeto com a sua cara? Experimente mudar os códigos hexadecimais (ex: #f58220)
+  para as cores que você mais gosta e veja o resultado no navegador!
+-->
 <style>
 :root {
   --bg-dark: #07111f;
@@ -91,7 +97,6 @@ body::before {
   font-size: .8rem;
 }
 
-/* Correção da badge de Recife */
 .system-title span.location {
   color: #fff;
   border-color: var(--border-blue);
@@ -225,9 +230,11 @@ body::before {
 </head>
 <body>
 
+<!-- [ESTRUTURA DO DASHBOARD] Toda a interface do console está contida dentro da tag <main> -->
 <main class="shell">
   <div class="dashboard">
 
+    <!-- BARRA LATERAL: Identificação do Curso, Professor e Status da Missão -->
     <aside class="sidebar">
       <h1 class="system-title">
         MEDIOTEC SENAC
@@ -247,9 +254,13 @@ body::before {
       </div>
     </aside>
 
+    <!-- CONSOLE PRINCIPAL: Onde estão os objetivos e o checklist do projeto -->
     <section class="main-console">
       <header class="console-header">
-        <h2>MISSÃO 01 // MEU PRIMEIRO PORTFÓLIO - SEU NOME</h2>
+        
+        <!-- [AÇÃO REQUERIDA]: Apague o texto entre colchetes abaixo e digite o seu nome completo -->
+        <h2>MISSÃO 01 // MEU PRIMEIRO PORTFÓLIO - [DIGITE SEU NOME AQUI]</h2>
+      
       </header>
 
       <div class="console-manifesto">
@@ -258,6 +269,8 @@ body::before {
         Criar uma página pessoal utilizando HTML e CSS.
         <br><br>
         O portfólio deverá conter:
+        
+        <!-- [CHECKLIST]: Lembre-se de criar tags HTML correspondentes para cada um destes itens no seu arquivo final -->
         <ul>
           <li>Nome completo</li>
           <li>Apresentação pessoal</li>
@@ -273,6 +286,12 @@ body::before {
         [ ETAPAS DA MISSÃO ]
       </div>
 
+      <!-- 
+        [DICA DE CÓDIGO]: 
+        Estes botões representam o seu fluxo de trabalho. 
+        À medida que avançarmos na aula, você aprenderá a usar a tag <a> para transformar
+        esses botões em links reais que abrem o seu repositório ou o site do GitHub!
+      -->
       <div class="action-grid">
         <button class="action-btn">
           <span class="btn-title">ETAPA 01</span>
@@ -303,6 +322,8 @@ body::before {
       <div class="footer-box">
         <strong>DESAFIO EXTRA</strong>
         <br><br>
+        
+        <!-- [UPGRADE]: Quer ir além? Tente implementar os itens abaixo para subir o nível do seu portfólio! -->
         ✔ Adicione uma foto ou avatar.<br>
         ✔ Inclua uma seção "Projetos do Curso".<br>
         ✔ Adicione links para GitHub e redes sociais.<br>
